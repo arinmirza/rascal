@@ -1,0 +1,51 @@
+{
+  "name": "rascal",
+  "version": "1.0.0",
+  "description": "Resource allocator and scheduler for companies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "webpack": "webpack --config webpack.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arinmirza/rascal.git"
+  },
+  "author": "arinmirza@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arinmirza/rascal/issues"
+  },
+  "homepage": "https://github.com/arinmirza/rascal#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "helmet": "^3.23.1",
+    "jwks-rsa": "^1.8.1",
+    "mongodb": "^3.5.9",
+    "mongodb-memory-server": "^6.6.1",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/helmet": "0.0.47",
+    "@types/mongodb": "^3.5.23",
+    "@types/mongoose": "^5.7.27",
+    "@types/morgan": "^1.9.1",
+    "@types/node": "^14.0.13",
+    "jest": "^26.0.1",
+    "prettier": "2.0.5",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
