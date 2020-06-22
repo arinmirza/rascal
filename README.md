@@ -1,7 +1,7 @@
-# rascal
+# Rascal
 
 Resource allocator and scheduler for companies
 
-### description
+### Description
 
-This is a work in progress.
+This work is under active development, [see the development branch](https://github.com/arinmirza/rascal/tree/develop).
