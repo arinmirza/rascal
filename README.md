@@ -1,6 +1,8 @@
+![Logo](/logo-rascal.png)
+
 # Rascal
 
-Resource allocator and scheduler for companies
+Resource allocator and scheduler for long-term workloads
 
 ### Description
 
